@@ -40,7 +40,7 @@ Backend dibangun menggunakan **FastAPI** untuk performa API yang cepat, sementar
 
 ## 🛠️ Informasi API
 1. buat file baru dengan nama `.env`
-2. isi .env dengan kode ini:
+2. isi `.env` dengan kode ini:
 
 ```bash
 API_TOKEN=hkbsafwoyusdhblb12hblflhb5
