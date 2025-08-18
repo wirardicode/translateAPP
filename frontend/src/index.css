@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Press Start 2P', monospace;
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a40 50%, #0f0f23 100%);
+            background-attachment: fixed;
+            color: #00ff00;
+            padding: 20px;
+            min-height: 100vh;
+            image-rendering: pixelated;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* Animated pixel background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image:
+                radial-gradient(circle at 10% 20%, rgba(0, 255, 0, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(0, 255, 255, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(255, 255, 0, 0.1) 0%, transparent 50%);
+            animation: pixelMove 10s ease-in-out infinite;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        @keyframes pixelMove {
+
+            0%,
+            100% {
+                transform: translateX(0px) translateY(0px);
+            }
+
+            33% {
+                transform: translateX(-10px) translateY(-10px);
+            }
+
+            66% {
+                transform: translateX(10px) translateY(10px);
+            }
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: rgba(20, 20, 50, 0.8);
+            border: 4px solid #00ff00;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow:
+                inset -4px -4px 0px #005500,
+                inset 4px 4px 0px #00ff88,
+                0px 0px 30px rgba(0, 255, 0, 0.3),
+                0px 8px 0px #000;
+            position: relative;
+        }
+
+        .container::before {
+            content: "═══ OCR Translate System V1.0.0 ═══";
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #0f0f23;
+            padding: 8px 15px;
+            font-size: 8px;
+            color: #00ffff;
+            border: 2px solid #00ff00;
+            border-radius: 6px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 30px;
+            text-shadow:
+                2px 2px 0px #000,
+                -1px -1px 0px #000,
+                1px -1px 0px #000,
+                -1px 1px 0px #000,
+                0 0 10px #00ff00;
+            color: #00ff00;
+            letter-spacing: 1px;
+            animation: titleGlow 3s ease-in-out infinite;
+        }
+
+        @keyframes titleGlow {
+
+            0%,
+            100% {
+                text-shadow:
+                    2px 2px 0px #000,
+                    -1px -1px 0px #000,
+                    1px -1px 0px #000,
+                    -1px 1px 0px #000,
+                    0 0 10px #00ff00;
+            }
+
+            50% {
+                text-shadow:
+                    2px 2px 0px #000,
+                    -1px -1px 0px #000,
+                    1px -1px 0px #000,
+                    -1px 1px 0px #000,
+                    0 0 20px #00ff00,
+                    0 0 30px #00ff00;
+            }
+        }
+
+        .input-section {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        #fileInput {
+            display: none;
+        }
+
+        .file-label,
+        #uploadBtn,
+        #languageSelect {
+            display: inline-block;
+            font-family: 'Press Start 2P', monospace;
+            font-size: 10px;
+            padding: 12px 20px;
+            border-radius: 8px;
+            margin: 5px;
+            cursor: pointer;
+            text-transform: uppercase;
+            box-shadow: 0px 4px 0px #000;
+        }
+
+        .file-label {
+            background: linear-gradient(45deg, #ff6600, #ff9900);
+            border: 3px solid #fff;
+            color: #000;
+        }
+
+        #uploadBtn {
+            background: linear-gradient(45deg, #00ff00, #44ff44);
+            border: 3px solid #fff;
+            color: #000;
+        }
+
+        #languageSelect {
+            background: linear-gradient(45deg, #00ffff, #44ffff);
+            border: 3px solid #fff;
+            color: #000;
+        }
+
+        .file-info {
+            margin-top: 10px;
+            font-size: 8px;
+            color: #00ffff;
+            text-align: center;
+        }
+
+        .result-area {
+            background: #000;
+            padding: 15px;
+            border: 3px solid #333;
+            border-radius: 8px;
+            margin-top: 15px;
+            min-height: 100px;
+            white-space: pre-wrap;
+            font-family: 'Courier New', monospace;
+            font-size: 11px;
+            line-height: 1.5;
+            color: #00ff00;
+            box-shadow:
+                inset -2px -2px 0px #222,
+                inset 2px 2px 0px #444,
+                0px 4px 0px #000;
+            position: relative;
+            overflow-y: auto;
+            max-height: 200px;
+        }
+
+        .result-area::before {
+            position: absolute;
+            top: -12px;
+            left: 10px;
+            background: #0f0f23;
+            padding: 4px 10px;
+            font-size: 8px;
+            color: #00ffff;
+            border: 2px solid #333;
+            border-radius: 4px;
+            font-family: 'Press Start 2P', monospace;
+        }
+
+        /*#ocrResult::before {
+            content: "◄ OCR OUTPUT ►";
+        }
+
+        #translateResult::before {
+            content: "◄ TRANSLATION ►";
+        }*/
