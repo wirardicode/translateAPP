@@ -39,9 +39,12 @@ Backend dibangun menggunakan **FastAPI** untuk performa API yang cepat, sementar
 ---
 
 ## 🛠️ Informasi API
+1. buat file baru dengan nama `.env`
+2. isi .env dengan kode ini:
 
 ```bash
-API_TOKEN=ijnkladwwdsnda3lbh123
+API_TOKEN=hkbsafwoyusdhblb12hblflhb5
+API_URL = https://deep-translator-api.azurewebsites.net/google/
 ```
 
 ---
