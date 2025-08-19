@@ -24,7 +24,6 @@ Detail:
    - [Manual](#manual)
    - [Docker](#docker)
 5. [Menjalankan Frontend](#menjalankan-frontend)
-6. [Kontribusi](#kontribusi)
 
 ---
 
@@ -74,6 +73,8 @@ VALID_TOKEN = autentikasi()
 ---
 
 ## Instalasi
+
+### manual
 1. clone repo:
 ```bash
 git clone <URL_REPO>
@@ -102,7 +103,7 @@ pip install -r requirements.txt
 fastapi dev main.py
 ```
 
-Dengan docker
+### Docker
 - 
 1. build image
 ```bash
