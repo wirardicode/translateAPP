@@ -1,0 +1,20 @@
+{
+  "name": "Translate App",
+  "short_name": "Translate App",
+  "start_url": "index.html",
+  "background_color": "#0f0f23",
+  "theme_color": "#0f0f23",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "src/img/manifesto/zta.png",
+      "sizes": "146x146",
+      "type": "image/png"
+    },
+    {
+      "src": "src/img/manifesto/zta.png",
+      "sizes": "146x146",
+      "type": "image/png"
+    }
+  ]
+}
