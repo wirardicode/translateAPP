@@ -15,7 +15,7 @@ Detail:
 
 ---
 
-## 📑 Daftar Isi
+## Daftar Isi
 
 1. [Tentang Aplikasi](#Tentang-Aplikasi)
 2. [Fitur](#Fitur)
@@ -28,7 +28,7 @@ Detail:
 
 ---
 
-# 🔍 Tentang Aplikasi
+# Tentang Aplikasi
 
 OCR Translator dirancang untuk memudahkan penerjemahan teks dari gambar secara cepat dan akurat. Aplikasi ini dapat digunakan untuk dokumen, gambar, atau teks apapun yang ingin diterjemahkan ke tiga bahasa secara otomatis.  
 Backend dibangun menggunakan **FastAPI** untuk performa API yang cepat, sementara frontend menggunakan **HTML**, **CSS**, dan **JavaScript**. Untuk fornt menggunakan [GOOGLE FONT](https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap)
@@ -44,7 +44,7 @@ Backend dibangun menggunakan **FastAPI** untuk performa API yang cepat, sementar
 
 ---
 
-## 🛠️ Informasi API
+## Informasi API
 1. buat file baru dengan nama `.env`
 - linux:
 ```bash
@@ -73,7 +73,7 @@ VALID_TOKEN = autentikasi()
 ```
 ---
 
-## ⚙️ Instalasi
+## Instalasi
 1. clone repo:
 ```bash
 git clone <URL_REPO>
@@ -115,7 +115,7 @@ docker run -d -p <PORT_LOCAL>:<PORT_DOCKER> --name <NAMA_CONTAINER> <NAMA_IMAGE>
 
 ---------------
 
-## 🌐 Menjalankan Frontend
+## Menjalankan Frontend
 
 Frontend dapat dijalankan menggunakan ekstensi **Live Server**:  
 [VSCode Live Server++](https://github.com/ritwickdey/vscode-live-server-plus-plus)  
