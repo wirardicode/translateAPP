@@ -5,7 +5,7 @@
 ![Logo Bahasa](https://img.shields.io/badge/Japanese-🇯🇵-green)
 
 Aplikasi **OCR Translator** berbasis Python dan FastAPI yang mampu mendeteksi teks dari gambar dan menerjemahkannya secara otomatis ke 3 bahasa: Inggris, Indonesia, dan Jepang.  
-Frontend menggunakan HTML, TailwindCSS, dan JavaScript.
+Frontend menggunakan HTML, CSS, dan JavaScript.
 
 ---
 
