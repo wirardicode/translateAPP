@@ -1,19 +1,25 @@
 ![image](github-header-banner.png)
 
-![Logo Bahasa](https://img.shields.io/badge/English-🇬🇧-blue)
-![Logo Bahasa](https://img.shields.io/badge/Indonesian-🇮🇩-red)
-![Logo Bahasa](https://img.shields.io/badge/Japanese-🇯🇵-green)
+![Logo Bahasa](https://img.shields.io/badge/Python-Py-orange)
+![Logo Bahasa](https://img.shields.io/badge/FastAPI-Fa-green)
+![Logo Bahasa](https://img.shields.io/badge/JavaScript-Js-blue)
 
 Aplikasi **OCR Translator** berbasis Python dan FastAPI yang mampu mendeteksi teks dari gambar dan menerjemahkannya secara otomatis ke 3 bahasa: Inggris, Indonesia, dan Jepang.  
-Frontend menggunakan HTML, CSS, dan JavaScript.
+
+Detail:
+1. versi terbaru: Ver-2.1.0 Alpha
+2. Update detail: 
+- Bug solving
+- Penyesuaian environtment
+3. Pengembang: `Wirardi Syahputra || The god0100`
 
 ---
 
 ## 📑 Daftar Isi
 
-1. [Tentang Aplikasi](#tentang-aplikasi)
+1. [Tentang Aplikasi](#Tentang-Aplikasi)
 2. [Fitur](#Fitur)
-3. [Informasi API](#informasi-api)
+3. [Informasi API](#🛠️-Informasi-API)
 4. [Instalasi](#instalasi)
    - [Manual](#manual)
    - [Docker](#docker)
@@ -50,13 +56,21 @@ Backend dibangun menggunakan **FastAPI** untuk performa API yang cepat, sementar
   cd backend
   md .env
 ```
+Untuk latest version 2.1.0 cukup rename file `.env.example` menjadi `.env`
+
 2. isi `.env` dengan kode ini:
 
 ```bash
 API_TOKEN=hkbsafwoyusdhblb12hblflhb5
 API_URL = https://deep-translator-api.azurewebsites.net/google/
+OCR_PATH = <YOUR_PATH>
 ```
 
+3. alternatif token (opsional)
+ganti path API_TOKEN dengan:
+```bash
+VALID_TOKEN = autentikasi()
+```
 ---
 
 ## ⚙️ Instalasi
