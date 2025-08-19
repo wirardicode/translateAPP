@@ -25,7 +25,7 @@ Frontend menggunakan HTML, TailwindCSS, dan JavaScript.
 # 🔍 Tentang Aplikasi
 
 OCR Translator dirancang untuk memudahkan penerjemahan teks dari gambar secara cepat dan akurat. Aplikasi ini dapat digunakan untuk dokumen, gambar, atau teks apapun yang ingin diterjemahkan ke tiga bahasa secara otomatis.  
-Backend dibangun menggunakan **FastAPI** untuk performa API yang cepat, sementara frontend menggunakan **HTML**, **CSS**, dan **JavaScript**. Untuk fornt menggunakan [GOOGLE FONT PIXEL](https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap)
+Backend dibangun menggunakan **FastAPI** untuk performa API yang cepat, sementara frontend menggunakan **HTML**, **CSS**, dan **JavaScript**. Untuk fornt menggunakan [GOOGLE FONT](https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap)
 
 ---
 
