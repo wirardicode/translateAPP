@@ -77,8 +77,7 @@ python -m venv venv
 - Linux/MacOS:
   ```bash
     source venv/bin/activate
-  ```
-  
+  ```  
 4. Install dependencies:
 ```bash
 pip install -r requirements.txt
@@ -87,6 +86,7 @@ pip install -r requirements.txt
 ```bash
 fastapi dev main.py
 ```
+6. Install Tesseract OCR via installer [Tesseract-ocr](https://sourceforge.net/projects/tesseract-ocr.mirror/) atau via git [tesseract-ocr-git](https://github.com/tesseract-ocr/tesseract), Masukan path ocr pada system environtment atau masukan path pada `.env`
 
 Dengan docker
 - 
