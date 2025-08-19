@@ -36,6 +36,10 @@ class image(BaseModel):
 
 VALID_TOKEN = os.getenv("API_KEY")
 API_URL = os.getenv("API_URL")
+#TESSERACT_PATH = os.getenv("OCR_PATH") # Dibuka kalau sudah install ocr tesseract
+#
+#if TESSERACT_PATH:
+#    pytesseract.pytesseract.tesseract_cmd = TESSERACT_PATH
 
 VALID_TOKEN = autentikasi()
 def verify_token(credentials: HTTPAuthorizationCredentials = Depends(security)):
