@@ -86,7 +86,13 @@ pip install -r requirements.txt
 ```bash
 fastapi dev main.py
 ```
-6. Install Tesseract OCR via installer [Tesseract-ocr](https://sourceforge.net/projects/tesseract-ocr.mirror/) atau via git [tesseract-ocr-git](https://github.com/tesseract-ocr/tesseract), Masukan path ocr pada system environtment atau masukan path pada `.env`
+6. Install Tesseract OCR via installer [Tesseract-ocr](https://sourceforge.net/projects/tesseract-ocr.mirror/) atau via git [tesseract-ocr-git](https://github.com/tesseract-ocr/tesseract), Masukan path ocr pada system environtment atau masukan path pada `.env` 
+- Jika menggunakan linux maka jalankan ini pada terminal
+```bash
+sudo apt update 
+sudo apt install tesseract-ocr -y
+sudo apt install libtesseract-dev -y
+```
 
 Dengan docker
 - 
