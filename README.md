@@ -112,7 +112,7 @@ docker build --tag <NAMA_IMAGE> .
 ```
 2. buat dan jalankan kontainer
 ```bash
-docker run -d -p <PORT_LOCAL>:<PORT_DOCKER> --name <NAMA_CONTAINER> <NAMA_IMAGE>
+docker run -d -p <PORT_LOCAL>:<PORT_DOCKER> --name <NAMA_CONTAINER> --env-file .env <NAMA_IMAGE>
 ```
 
 ---------------
