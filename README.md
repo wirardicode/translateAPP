@@ -3,6 +3,7 @@
 ![Logo Bahasa](https://img.shields.io/badge/Python-Py-orange)
 ![Logo Bahasa](https://img.shields.io/badge/FastAPI-Fa-green)
 ![Logo Bahasa](https://img.shields.io/badge/JavaScript-Js-blue)
+![Logo Bahasa](https://img.shields.io/badge/Json-Json-blue)
 
 Aplikasi **OCR Translator** berbasis Python dan FastAPI yang mampu mendeteksi teks dari gambar dan menerjemahkannya secara otomatis ke 3 bahasa: Inggris, Indonesia, dan Jepang.  
 
