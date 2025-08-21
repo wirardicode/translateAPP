@@ -61,8 +61,8 @@ Untuk latest version 2.1.0 cukup rename file `.env.example` menjadi `.env`
 
 ```bash
 API_TOKEN=hkbsafwoyusdhblb12hblflhb5
-API_URL = https://deep-translator-api.azurewebsites.net/google/
-OCR_PATH = <YOUR_PATH>
+API_URL=https://deep-translator-api.azurewebsites.net/google/
+OCR_PATH=<YOUR_PATH>
 ```
 
 3. alternatif token (opsional)
