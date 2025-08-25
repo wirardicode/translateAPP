@@ -1,5 +1,4 @@
 ![image](github-header-banner.png)
-
 ![Logo Bahasa](https://img.shields.io/badge/Python-Py-orange)
 ![Logo Bahasa](https://img.shields.io/badge/FastAPI-Fa-green)
 ![Logo Bahasa](https://img.shields.io/badge/JavaScript-Js-blue)
