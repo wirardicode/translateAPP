@@ -9,7 +9,7 @@
 Aplikasi **OCR Translator** berbasis Python dan FastAPI yang mampu mendeteksi teks dari gambar dan menerjemahkannya secara otomatis ke 3 bahasa: Inggris, Indonesia, dan Jepang.  
 
 Detail:
-1. versi terbaru: Ver-2.1.0 Alpha
+1. versi terbaru: Ver-3.1.0 Alpha
 2. Update detail: 
 - Bug solving
 - Penyesuaian environtment
@@ -57,7 +57,7 @@ Backend dibangun menggunakan **FastAPI** untuk performa API yang cepat, sementar
   cd backend
   md .env
 ```
-Untuk latest version 2.1.0 cukup rename file `.env.example` menjadi `.env`
+Untuk version 3.1.0 atau latest version cukup rename file `.env.example` menjadi `.env`
 
 2. isi `.env` dengan kode ini:
 
